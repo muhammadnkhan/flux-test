@@ -2,7 +2,7 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 
 resources:
-  - https://github.com/muhammadnkhan/flux-test
+  - https://github.com/muhammadnkhan/eks-cluster-tier1-workloads.git
 
 commonLabels:
   cluster: my-cluster
